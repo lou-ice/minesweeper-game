@@ -1,0 +1,48 @@
+/* Louice Rydén */
+
+h1,
+.player-message {
+  text-align: center;
+  color: rgb(247, 241, 232);
+}
+
+.player-message {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+a {
+  padding: 0.5rem 0.7rem;
+  border-radius: 2rem;
+  background-color: rgb(247, 241, 232);
+  color: #466d5a;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin-top: 1rem;
+  margin-left: 0.7rem;
+  box-shadow: 0px 3px 4px rgb(55, 54, 54);
+}
+
+a:hover {
+  background-color: #c2d3ba;
+  color: #466d5a;
+}
+
+a:active {
+  color: #466d5a;
+  box-shadow: 0 5px 5px rgb(55, 54, 54);
+}
+
+.container {
+  background-color: rgb(247, 241, 232);
+  padding: 2rem;
+  border-radius: 4rem 1rem;
+  box-shadow: 0 2px 15px rgb(55, 54, 54);
+  width: 32rem;
+  height: 32rem;
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 1rem;
+}
