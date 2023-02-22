@@ -1,0 +1,24 @@
+/* Louice Rydén */
+
+.cell {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #416253;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/minesweeper.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  cursor: pointer;
+  width: 80%;
+  height: 80%;
+}
+
+.mine {
+  background-image: url('./assets/mine.png');
+}
+
+.neighbour {
+  background-image: url('assets/neighbour.png');
+}
