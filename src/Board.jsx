@@ -24,7 +24,7 @@ class Board extends React.Component {
 
   /* Handles clicks made on each cell, 
   creates a "new state" of the state and maps over it to check for different conditions,
-  then changes the state accordingly and returns the new state */
+  then changes the state based on those conditions and the recieved data, returns the new state */
   handleCellClick = (recievedData) => {
     this.setState((newState) => {
       newState.createBoard.map((cell) => {
@@ -34,8 +34,8 @@ class Board extends React.Component {
             .length === this.amountOf.mines;
 
         if (cell.index === recievedData.index) {
-          console.log(newState.createBoard);
           recievedData.visible = true;
+          console.log(newState.createBoard);
         }
         if (recievedData.hasMine) {
           newState.gameStatus = 'Game over! 💣';

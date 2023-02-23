@@ -25,11 +25,9 @@ a {
 
 a:hover {
   background-color: #c2d3ba;
-  color: #466d5a;
 }
 
 a:active {
-  color: #466d5a;
   box-shadow: 0 5px 5px rgb(55, 54, 54);
 }
 
