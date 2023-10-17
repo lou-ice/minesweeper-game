@@ -1,5 +1,3 @@
-// Louice Rydén
-
 import './Cell.css';
 
 function Cell(props) {

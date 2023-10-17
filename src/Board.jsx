@@ -1,5 +1,3 @@
-// Louice Rydén
-
 import React from 'react';
 import './Board.css';
 import createBoardSize from './utils.js';
@@ -35,7 +33,7 @@ class Board extends React.Component {
 
         if (cell.index === recievedData.index) {
           recievedData.visible = true;
-          console.log(newState.createBoard);
+          //console.log(newState.createBoard);
         }
         if (recievedData.hasMine) {
           newState.gameStatus = 'Game over! 💣';
